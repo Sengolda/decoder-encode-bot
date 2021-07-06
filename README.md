@@ -7,6 +7,7 @@ A bot that can encode/decode base64 and binary.
 python3 -m pip install -U -r requires.txt && python3 bot.py
 ```
  - if you have docker try this
+
 ```bash
-docker build -t myawesomebot .
+docker build -t myawesomebot . && docker-compose up
 ```
