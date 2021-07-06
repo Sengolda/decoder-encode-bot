@@ -3,6 +3,7 @@ from discord.ext import commands
 import os
 
 bot = commands.Bot(command_prefix=str("d."), intents=discord.Intents.default())
+bot.TOKEN = "TOKEN_HERE"
 
 
 @bot.event
@@ -16,4 +17,4 @@ for i in os.listdir('cogs'):
 
 
 if __name__ == '__main__':
-  bot.run("ODUzNDU0ODg4ODIxMDYzNjkx.YMVnzQ.W0Uxwfqq8mEkkyVdJxXctVMIyfM")
+  bot.run(bot.TOKEN)
